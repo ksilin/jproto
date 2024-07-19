@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package v3;
+//option java_outer_classname = "PersonOuter";
+//option java_package = "com.example.v2";
+
+message Person {
+  string name = 1;
+  int32 id = 2;
+  string email = 3;
+}
