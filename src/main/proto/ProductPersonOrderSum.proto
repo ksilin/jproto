@@ -1,0 +1,15 @@
+syntax = "proto3";
+import "order.proto";
+import "product.proto";
+import "customer.proto";
+
+package com.example.protox;
+
+
+message ProductPersonOrderSum {
+    oneof oneof_type {
+        Customer customer = 1;
+        Product product = 2;
+        Order order = 3;
+    }
+}
