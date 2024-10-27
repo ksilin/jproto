@@ -108,6 +108,10 @@ public class ReferenceAndAnyOfTest {
         log.info("has customer: " + deserialized.hasCustomer());
         log.info("has order: " + deserialized.hasOrder());
         log.info("has product: " + deserialized.hasProduct());
+
+        log.info("customer: " + deserialized.getCustomer());
+        log.info("order: " + deserialized.getOrder());
+        log.info("product: " + deserialized.getProduct());
     }
 
 }
